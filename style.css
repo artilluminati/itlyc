@@ -1,0 +1,122 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.menu span, a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #4cf55d;
+}
+.menu{
+    background-color: #3D3D3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.logo span{
+    margin-left: 5px;
+}
+.right-menu a{
+    margin-right: 20px;
+}
+#green-gr{
+    background: linear-gradient(90deg, #4cf55d 0%, #37b644 100%);
+    color: #4cf55d;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    color: #747171;
+    margin-top: 20px;
+}
+.events{
+    width: 700px;
+}
+.ev-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: #E4E2E2 2px solid;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.ev-wrap img{
+    width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+.ev{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 20px;
+}
+.ev h1{
+    color: #555555;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+}
+.type{
+    font-size: 20px;
+}
+.desc{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.price{
+    width: 200px;
+    background: linear-gradient(180deg, #1DCE1A 0%, #1DF333 100%);
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.value{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.place{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+.place img{
+    height: 15px;
+    width: 15px;
+    padding-top: 5px;
+}
+.join{
+    margin-top: 25px;
+    color: #1DCE1A;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.filters{
+    background: #EFEFEF;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
